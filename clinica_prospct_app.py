@@ -24,7 +24,7 @@ df = load_data()
 col1, col2 = st.columns(2)  
 
 with col1:
-    st.subheader("Análise de Produtos por Procedimento")
+    st.subheader("Análise Financeira por Procedimento")
     
     # Add filters
     selected_procedures = st.multiselect(
